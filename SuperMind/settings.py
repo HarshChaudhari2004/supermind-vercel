@@ -54,7 +54,7 @@ if RENDER_EXTERNAL_HOSTNAME:
 CSRF_TRUSTED_ORIGINS = [
     'https://supermind-9fii.onrender.com',
     'https://crazymind.onrender.com',
-    'http://tragic-christal-supermind-b64b5075.koyeb.app',
+    'https://tragic-christal-supermind-b64b5075.koyeb.app',
     'http://localhost:8081',
     'http://127.0.0.1:8000',
     'http://192.168.0.104:8000',
@@ -106,7 +106,7 @@ CORS_ALLOWED_ORIGINS = [
     "http://192.168.0.104:8081",
     "http://192.168.0.104",
     "https://crazymind.onrender.com",
-    "http://tragic-christal-supermind-b64b5075.koyeb.app",
+    "https://tragic-christal-supermind-b64b5075.koyeb.app",
     "https://supermind-9fii.onrender.com"
 ]
 
