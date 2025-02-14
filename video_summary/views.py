@@ -8,7 +8,7 @@ logger = logging.getLogger(__name__)
 
 # Create a simple home view for the root URL
 def home(request):
-    return HttpResponse("Welcome to SuperMind! Use /api/generate-summary to interact with the API.")
+    return HttpResponse("Welcome to SuperMind!")
 
 import os
 import requests
